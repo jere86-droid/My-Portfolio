@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jeremy Mutunga | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="dark-toggle">
+    <button id="toggle-dark">Toggle Dark Mode 🌗</button>
+  </div>
+
+  <header>
+    <img src="profile.jpg" alt="Jeremy Mutunga" class="profile" />
+    <h1>Jeremy Mutunga</h1>
+    <p>🎥 Film & Tech Enthusiast | 💻 Software Engineer | 📚 Broadcast Production Student</p>
+    <p>Turning ideas into reality through storytelling and tech.</p>
+  </header>
+
+  <div class="container">
+    <section id="about">
+      <h2>👤 About Me</h2>
+      <p>
+        I'm Jeremy Mutunga, currently studying Broadcast Production at the University of Nairobi (Graduating 2026). I’m deeply passionate about storytelling through film, documentaries, web design, and scripting creative projects. I thrive in team environments and seek opportunities to learn and grow in media, tech, and communication. Right now im just into software engineering and i am  really liking it and i think its amazing with what software engineering can do. Yeah i love it
+      </p>
+    </section>
+
+    <section id="skills">
+      <h2>💻 Programming Languages</h2>
+      <ul>
+        <li>HTML (beginner)</li>
+        <li>CSS (beginner)</li>
+        <li>Python (beginner)</li>
+      </ul>
+    </section>
+
+    <section id="education">
+      <h2>🎓 Educational Background</h2>
+      <ul>
+        <li><strong>University of Nairobi</strong> – Bachelor in Broadcast Production (Expected 2026)</li>
+        <li><strong>High School:</strong> KCSE – [Grade B] (Year Completed: 2021)</li>
+      </ul>
+      <p><a href="CV.pdf" download>📄 Download My CV</a></p>
+    </section>
+
+    <section id="interests">
+      <h2>🎯 Interests</h2>
+      <p>I`m really excited about how software engineering can be used to buil solutions that make life easier and more creative. i enjoy learning how to code, design websites, and tell meaningful stories through media and digital platforms</p>
+      </p>
+      <ul>
+    <li><strong>🌐 Web Development:</strong> Exploring modern frameworks and best practices.</li>
+    <li><strong>🚀 Film production:</strong> Creating visually impactfull stories that transforms lives.</li>
+  </ul>
+</section>
+    </section>
+
+    <section id="projects">
+      <h2>📁 Projects</h2>
+      <P> Here are some of my school and personal project</P>
+      <div class="project-card">
+        <h3>🎬 Beyond Unemployment Documentary</h3>
+        <p>Produced an engaging documentary about the the adverse effects of unemployment bring to the youths in Nairobi.</p>
+    
+        <a href="https://drive.google.com/file/d/1E_de57fmizW3ed46dKT0BGdHbahcjuMY/view?usp=drivesdk"  target="_blank">Watch Project</a>
+      </div>
+      <div class="project-card">
+        <h3>🌍 Sports Show</h3>
+        <p>Scripted and presented a sportshow.</p>
+        <div class="video-wrapper"></div>
+        <a href="https://drive.google.com/file/d/1BNkbqMNTAR5Ehmk8Y95LOIwQGEZcc1qo/view?usp=drivesdk"  target="_blank">Watch Sports Show</a>
+      </div>
+      <div class="project-card">
+        <h3>CHOICES </h3>
+        <p>I was part of the creative team that produced and acted this short film CHOICES</p>
+        <a href="https://drive.google.com/file/d/1HFebO67Djr7zzrS4lPZCuuhKApo_9PTK/view?usp=drive_linkhttps://drive.google.com/file/d/1HFebO67Djr7zzrS4lPZCuuhKApo_9PTK/view?usp=drive_link"  target="_blank">Watch Choices</a>
+        </div> 
+        <div class="project-card">
+            <h3.>📖 ADVERT</h3>
+            <p>A short Advert about a close up toothpaste.</p>
+            <a href="ttps://drive.google.com/file/d/1r1yGtVv1RoA0K8e8kDlNHE6SsZZcq1hs/view?usp=sharing" v>Watch Advert</a>
+        </div>
+        <div class="project-card">
+            <h3>Feature Story</h3>
+            <p>A  feature story covering the local food joint "Klabu" where student access their lunch at UON.</p>
+            <a href="https://drive.google.com/file/d/14A55Od_3DenT17Ujs5yqL3AkFcLwXVdJ/view?usp=sharing"  target="_blank">Watch story</a>
+    </section>
+
+    <section id="contact">
+      <h2>📧 Contact Me</h2>
+      <form class="contact-form" action="mailto:mutungajeremy84@gmail.com" method="post" enctype="text/plain">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" rows="5" placeholder="Your Message"></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+    <section id="connect">
+      <h2>🔗 Connect with Me</h2>
+      <div class="social-icons">
+        <a href="https://github.com/jere86-droid" target="_blank"><img src="github.png" alt="GitHub" /></a>
+        <a href="https://x.com/jeremy_mutunga" target="_blank"><img src="twitter.png" alt="X (Twitter)" /></a>
+        <a href="mailto:mutungajeremy84@gmail.com"><img src="email.png" alt="Email" /></a>
+      </div>
+    </section>
+  </div>
+
+  <script>
+    const toggleButton = document.getElementById('toggle-dark');
+    toggleButton.addEventListener('click', () => {
+      document.body.classList.toggle('dark-mode');
+    });
+  </script>
+</body>
+</html>
+
+
